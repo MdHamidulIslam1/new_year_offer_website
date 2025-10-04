@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.happy_new_year {
+    display: flex;
+    justify-content: center;
+}
+
+.happy_new_year_container {
+    background: linear-gradient(180.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.happy_new_year_element {
+    max-width: 632px;
+    margin: 177px auto;
+}
+
+.happy_new_year_element p {
+    text-align: center;
+    /* margin-top: 117px; */
+    color: rgba(255, 255, 255, 1);
+    font-family: Merriweather;
+    font-size: 32px;
+}
+
+.happy_new_year_element h1 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 16px;
+}
+
+.offer {
+    max-width: 803px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.offer_element h1 {
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer_element p {
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer_element h3 {
+    color: rgba(7, 2, 17, 1);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer_element img {
+    width: 802.9px;
+    height: 500px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.welcome_container {
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%),
+        url("../images/Vectorrr.png");
+    border-radius: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.welcome_container img {
+    width: 319.83px;
+    height: 464.66px;
+    margin: 68px 138px 68px 40px;
+}
+
+.welcome_element {
+    max-width: 697px;
+    margin: 68px 0px 68px 126px;
+}
+
+.welcome_element h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+.welcome_element p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.welcome_element h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 48px 0px 0px 32px;
+}
+
+.new_park {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto 0px;
+    border-radius: 16px;
+}
+
+.new_park_container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.new_park_element {
+    margin-top: 100px;
+}
+
+.new_park_element p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.new_park_element span {
+    color: rgba(255, 0, 0, 1);
+}
+
+.new_park_container .btn button {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: rgba(255, 0, 0, 1);
+    cursor: pointer;
+    border: none;
+}
