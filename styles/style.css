@@ -180,3 +180,67 @@
     cursor: pointer;
     border: none;
 }
+
+.coming_soon_offer_elements1 h2 {
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.coming_soon_offer_elements1 h1 {
+    color: rgba(7, 2, 17, 1);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.coming_soon_offer_elements1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.coming_soon_offer_elements2 img {
+    width: 364.84px;
+    height: 364.84px;
+    border: 15px solid rgba(255, 0, 0, 1);
+    padding: 46px;
+    border-radius: 50%;
+}
+
+.coming_soon_offer_elements3 h1 {
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.coming_soon_offer_elements3 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 43px;
+}
+
+.coming_soon_offer_elements3 img {
+    height: 140px;
+    width: 140px;
+}
+
+.coming_soon_offer_container {
+    display: flex;
+    gap: 70px;
+}
+
+.coming_soon_offer {
+    max-width: 1320px;
+    margin: 120px auto 0px;
+    
+}
